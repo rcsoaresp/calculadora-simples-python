@@ -1,0 +1,10 @@
+# Configuração do GitHub Linguist
+# Faz o GitHub considerar apenas o Python nas estatísticas de linguagem do repositório
+
+src/** linguist-vendored
+index.html linguist-vendored
+vite.config.ts linguist-vendored
+package.json linguist-vendored
+tsconfig.json linguist-vendored
+metadata.json linguist-vendored
+.env.example linguist-vendored

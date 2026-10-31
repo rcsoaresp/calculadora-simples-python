@@ -102,6 +102,32 @@ export function ReadmeViewer() {
         </pre>
       </div>
 
+      {/* Explanatory FAQ for the user's question */}
+      <div className="bg-amber-50/70 border border-amber-200 rounded-xl p-5 shadow-xs space-y-3 text-slate-800">
+        <h3 className="text-sm font-bold text-amber-950 flex items-center gap-2">
+          <span>💡 Por que o GitHub indicou 95,7% TypeScript e apenas 2,6% Python?</span>
+        </h3>
+        <p className="text-xs text-amber-900 leading-relaxed">
+          O GitHub calcula as linguagens somando a <strong>quantidade de bytes (tamanho dos arquivos)</strong> de todo o repositório. Como você enviou o projeto inteiro com o laboratório interativo (escrito em React e TypeScript no diretório <code className="bg-white/80 px-1 py-0.5 rounded font-mono text-slate-800">src/</code>), o TypeScript tem muito mais linhas de código do que o arquivo <code className="bg-white/80 px-1 py-0.5 rounded font-mono text-slate-800">calculadora.py</code>.
+        </p>
+        
+        <div className="pt-2 border-t border-amber-200/80 grid grid-cols-1 md:grid-cols-2 gap-3 text-xs">
+          <div className="bg-white/80 p-3 rounded-lg border border-amber-100 space-y-1">
+            <span className="font-bold text-slate-900">Para que serve o index.html e os outros arquivos?</span>
+            <p className="text-slate-600 leading-relaxed text-[11px]">
+              Eles são o código da <strong>Aplicação Web Interativa (AI Studio)</strong> que você está usando agora (com o terminal virtual, quiz e depurador). O <code className="font-mono">index.html</code> é a página web que o navegador abre para carregar a interface.
+            </p>
+          </div>
+
+          <div className="bg-white/80 p-3 rounded-lg border border-amber-100 space-y-1">
+            <span className="font-bold text-slate-900">Como deixar seu GitHub 100% Python?</span>
+            <p className="text-slate-600 leading-relaxed text-[11px]">
+              Já criamos o arquivo <code className="font-mono text-indigo-700">.gitattributes</code> no projeto! Basta fazer um novo commit para que o GitHub oculte os arquivos web das estatísticas e exiba <strong>100% Python</strong>.
+            </p>
+          </div>
+        </div>
+      </div>
+
       {/* Content Area */}
       {viewMode === 'raw' ? (
         <div className="bg-slate-950 border border-slate-800 rounded-xl overflow-hidden shadow-xs">
