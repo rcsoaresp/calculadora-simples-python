@@ -1,8 +1,15 @@
-node_modules/
-build/
-dist/
-coverage/
+# Arquivos temporários e cache do Python
+__pycache__/
+*.pyc
+
+# Ambiente virtual do Python (caso use)
+.venv/
+venv/
+env/
+
+# Configurações locais do PyCharm
+.idea/
+
+# Arquivos do sistema operacional
 .DS_Store
-*.log
-.env*
-!.env.example
+Thumbs.db
