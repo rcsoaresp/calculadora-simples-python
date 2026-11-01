@@ -3,7 +3,13 @@
 Uma calculadora de linha de comando (CLI) desenvolvida em **Python 3**, ideal para iniciantes em programação. O projeto realiza as quatro operações matemáticas fundamentais de forma interativa, modular e com tratamento robusto de erros.
 
 ---
+## 🌐 Demonstração Interativa Online
+Quer testar a calculadora sem precisar instalar nada no seu computador?
+Acesse a versão interativa completa com terminal virtual e quiz:
 
+👉 **[Testar a Calculadora no Navegador](https://ais-pre-nomffymaknrb3ddt5rz3uo-983450994454.europe-west2.run.app)**
+
+---
 ## 🚀 Funcionalidades
 
 - ➕ **Adição**: Soma dois números decimais ou inteiros.
